@@ -34,5 +34,6 @@ playButton.addEventListener('click', () => {
     lossCounter++;
     whoWon.textContent = 'You lost.'
   }
+  totalWins.textContent = `${winCounter} wins, ${lossCounter} losses, ${drawCounter} draws.`
 })
 
